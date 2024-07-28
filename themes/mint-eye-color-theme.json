@@ -138,7 +138,6 @@
         "punctuation.definition.variable",
         "punctuation.definition.variable.php",
         "punctuation.definition.variable.shell",
-        "variable.interpolation", // 属性
         "support.type.object.module",
         "support.type.object.module.js",
         "support.type.object.module.ts", // js模块属性,js对象属性
@@ -151,7 +150,14 @@
         "meta.function-call.arguments", // 方法调用中的参数
         "entity.name.tag" // html标签
       ],
-      "settings": { "foreground": "#38761d" }
+      "settings": { "foreground": "#38761d" } // Green
+    },
+    {
+      "name": "属性",
+      "scope": [
+        "variable.interpolation", // 属性
+      ],
+      "settings": { "foreground": "#e69138" } // Salmon
     },
     { "name": "关键字-ifelse,continue", "scope": ["keyword.control"], "settings": { "foreground": "#ba68c8" } },
     {
