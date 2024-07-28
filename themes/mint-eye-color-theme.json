@@ -112,7 +112,7 @@
         "keyword.operator.new", // new class
         "keyword.other.unsafe.rust" // rust
       ],
-      "settings": { "foreground": "#ba68c8" "fontStyle": "normal" }
+      "settings": { "foreground": "#ba68c8", "fontStyle": "normal" }
     },
     {
       "name": "关键字",
