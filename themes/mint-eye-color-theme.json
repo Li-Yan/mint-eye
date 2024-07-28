@@ -155,7 +155,7 @@
       "scope": [
         "variable.parameter",
         "function.definition",
-        "variable.interpolation", // 属性
+        "variable.interpolation" // 属性
       ],
       "settings": { "foreground": "#e69138" } // Salmon
     },
