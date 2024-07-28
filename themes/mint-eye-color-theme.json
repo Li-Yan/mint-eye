@@ -157,14 +157,10 @@
     },
     { "name": "关键字-ifelse,continue", "scope": ["keyword.control"], "settings": { "foreground": "#ba68c8" } },
     {
-      "name": "关键字-运算符",
+      "name": "关键字-普通",
       "scope": [
         "keyword.operator",
         "meta.separator",
-        "meta.tag",
-        "meta.class.body",
-        "meta.method-call",
-        "meta.method", // 关键字-运算符,元分割符,元类主体,元方法调用
         "punctuation.definition.method-parameters",
         "punctuation.definition.function-parameters",
         "punctuation.definition.parameters",
@@ -180,10 +176,20 @@
         "punctuation.section.block",
         "punctuation.section.class", // 大括号
         "punctuation.section.parens", //小括号
-        "meta.object.member",
         "meta.objectliteral" // 括号,js冒号
       ],
       "settings": { "foreground": "#274e13", "fontStyle": "bold" }
+    },
+    {
+      "name": "关键字-运算符",
+      "scope": [
+        "meta.tag",
+        "meta.method", // 关键字-运算符,元分割符,元类主体,元方法调用
+        "meta.class.body",
+        "meta.method-call",
+        "meta.object.member"
+      ],
+      "settings": { "foreground": "#616161", "fontStyle": "normal" }
     },
     { "name": "方法名-自定义", "scope": ["entity.name.function", "support.function.any-method", "entity.name.section", "meta.function-call.generic"], "settings": { "foreground": "#5c6bc0", "fontStyle": "normal" } },
     { "name": "方法名-系统", "scope": ["support.function", "keyword.other.special-method"], "settings": { "foreground": "#c8a415", "fontStyle": "normal" } },
