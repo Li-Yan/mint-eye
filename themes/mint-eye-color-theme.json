@@ -6,9 +6,11 @@
     "activityBar.foreground": "#519657",
     "activityBarBadge.background": "#519657", // 左侧竖条数字标
     "activityBarBadge.foreground": "#eeeeee",
+    // "activityBar.border": "#519657",
     "sideBarSectionHeader.background": "#c7edcc",
     "sideBarSectionHeader.foreground": "#519657",
     "sideBarSectionHeader.border": "#519657",
+    // "sideBar.border": "#519657",
     "badge.background": "#519657", // 角标
     "badge.foreground": "#eeeeee",
     "button.background": "#519657",
@@ -133,9 +135,12 @@
       "name": "变量",
       "scope": [
         "variable",
+        "variable.parameter",
+        "function.definition",
         "punctuation.definition.variable",
         "punctuation.definition.variable.php",
         "punctuation.definition.variable.shell",
+        "variable.interpolation", // 属性
         "support.type.object.module",
         "support.type.object.module.js",
         "support.type.object.module.ts", // js模块属性,js对象属性
@@ -148,16 +153,7 @@
         "meta.function-call.arguments", // 方法调用中的参数
         "entity.name.tag" // html标签
       ],
-      "settings": { "foreground": "#38761d" } // Green
-    },
-    {
-      "name": "属性",
-      "scope": [
-        "variable.parameter",
-        "function.definition",
-        "variable.interpolation", // 属性
-      ],
-      "settings": { "foreground": "#e69138" } // Salmon
+      "settings": { "foreground": "#38761d" }
     },
     { "name": "关键字-ifelse,continue", "scope": ["keyword.control"], "settings": { "foreground": "#ba68c8" } },
     {
