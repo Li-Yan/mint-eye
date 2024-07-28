@@ -102,7 +102,7 @@
         "entity.other.inherited-class", // 类
         "source.java storage.type" // java import,type
       ],
-      "settings": { "foreground": "#40E0D0", "fontStyle": "bold" }
+      "settings": { "foreground": "#21b7c0", "fontStyle": "bold" }
     },
     {
       "name": "关键字",
@@ -153,7 +153,7 @@
         "meta.function-call.arguments", // 方法调用中的参数
         "entity.name.tag" // html标签
       ],
-      "settings": { "foreground": "#274e13" }
+      "settings": { "foreground": "#4a6112" }
     },
     { "name": "关键字-ifelse,continue", "scope": ["keyword.control"], "settings": { "foreground": "#ba68c8" } },
     {
