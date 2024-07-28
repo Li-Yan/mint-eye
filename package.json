@@ -2,7 +2,7 @@
   "name": "mint-eye",
   "displayName": "Mint Eye",
   "description": "Mint color for eye relexing",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.91.0"
   },
