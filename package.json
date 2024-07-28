@@ -1,7 +1,7 @@
 {
   "name": "mint-eye",
-  "displayName": "mint-eye",
-  "description": "Mint color for eye refreshing",
+  "displayName": "Mint Eye",
+  "description": "Mint color for eye relexing",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.91.0"
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Mint Eye",
+        "label": "mint-eye",
         "uiTheme": "vs",
-        "path": "./themes/Mint Eye-color-theme.json"
+        "path": "./themes/mint-eye-color-theme.json"
       }
     ]
   }
