@@ -101,7 +101,7 @@
         "entity.other.inherited-class", // 类
         "source.java storage.type" // java import,type
       ],
-      "settings": { "foreground": "#009D94", "fontStyle": "bold" }
+      "settings": { "foreground": "#03b3b5", "fontStyle": "bold" }
     },
     {
       "name": "关键字",
