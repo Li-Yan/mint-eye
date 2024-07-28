@@ -134,7 +134,6 @@
       "scope": [
         "variable",
         "variable.parameter",
-        "function.definition",
         "punctuation.definition.variable",
         "punctuation.definition.variable.php",
         "punctuation.definition.variable.shell",
@@ -155,6 +154,7 @@
     {
       "name": "属性",
       "scope": [
+        "function.definition",
         "variable.interpolation", // 属性
       ],
       "settings": { "foreground": "#e69138" } // Salmon
