@@ -6,11 +6,10 @@
     "activityBar.foreground": "#519657",
     "activityBarBadge.background": "#519657", // 左侧竖条数字标
     "activityBarBadge.foreground": "#eeeeee",
-    // "activityBar.border": "#519657",
     "sideBarSectionHeader.background": "#c7edcc",
     "sideBarSectionHeader.foreground": "#519657",
     "sideBarSectionHeader.border": "#519657",
-    // "sideBar.border": "#519657",
+    "sideBarTitle.foreground": "#519657",
     "badge.background": "#519657", // 角标
     "badge.foreground": "#eeeeee",
     "button.background": "#519657",
