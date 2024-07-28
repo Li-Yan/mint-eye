@@ -6,6 +6,9 @@
     "activityBar.foreground": "#519657",
     "activityBarBadge.background": "#519657", // 左侧竖条数字标
     "activityBarBadge.foreground": "#eeeeee",
+    "sideBarSectionHeader.background": "#a8c7accb",
+    "sideBarSectionHeader.foreground": "#519657",
+    "sideBarSectionHeader.border": "#519657",
     "badge.background": "#519657", // 角标
     "badge.foreground": "#eeeeee",
     "button.background": "#519657",
