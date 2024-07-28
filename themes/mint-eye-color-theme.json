@@ -102,7 +102,7 @@
         "entity.other.inherited-class", // 类
         "source.java storage.type" // java import,type
       ],
-      "settings": { "foreground": "#007c7d", "fontStyle": "bold" }
+      "settings": { "foreground": "#40E0D0", "fontStyle": "bold" }
     },
     {
       "name": "关键字",
@@ -153,11 +153,11 @@
         "meta.function-call.arguments", // 方法调用中的参数
         "entity.name.tag" // html标签
       ],
-      "settings": { "foreground": "#e57373" }
+      "settings": { "foreground": "#274e13" }
     },
     { "name": "关键字-ifelse,continue", "scope": ["keyword.control"], "settings": { "foreground": "#ba68c8" } },
     {
-      "name": "关键字-普通",
+      "name": "关键字-运算符",
       "scope": [
         "keyword.operator",
         "meta.separator",
@@ -178,10 +178,10 @@
         "punctuation.section.parens", //小括号
         "meta.objectliteral" // 括号,js冒号
       ],
-      "settings": { "foreground": "#274e13", "fontStyle": "bold" }
+      "settings": { "foreground": "#e57373", "fontStyle": "bold" }
     },
     {
-      "name": "关键字-运算符",
+      "name": "关键字-普通",
       "scope": [
         "meta.tag",
         "meta.method", // 关键字-运算符,元分割符,元类主体,元方法调用
