@@ -99,7 +99,7 @@
         "entity.name.type.class",
         "entity.name.class",
         "support.class",
-        "entity.other.inherited-class", // 类
+        "entity.other.inherited-class" // 类
       ],
       "settings": { "foreground": "#56b6c2", "fontStyle": "bold" }
     },
