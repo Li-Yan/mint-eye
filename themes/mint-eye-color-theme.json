@@ -86,8 +86,7 @@
     {
       "name": "导入",
       "scope": [
-        "source.java storage.modifier.import",
-        "source.java storage.type" // java import,type
+        "source.java storage.modifier.import"
       ],
       "settings": { "foreground": "#c88719" }
     },
@@ -99,7 +98,8 @@
         "entity.name.type.class",
         "entity.name.class",
         "support.class",
-        "entity.other.inherited-class" // 类
+        "entity.other.inherited-class", // 类
+        "source.java storage.type" // java import,type
       ],
       "settings": { "foreground": "#56b6c2", "fontStyle": "bold" }
     },
@@ -112,7 +112,7 @@
         "keyword.operator.new", // new class
         "keyword.other.unsafe.rust" // rust
       ],
-      "settings": { "foreground": "#ba68c8" }
+      "settings": { "foreground": "#ba68c8" "fontStyle": "normal" }
     },
     {
       "name": "关键字",
