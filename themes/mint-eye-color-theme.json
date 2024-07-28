@@ -7,7 +7,7 @@
     "activityBarBadge.background": "#519657", // 左侧竖条数字标
     "activityBarBadge.foreground": "#eeeeee",
     // "activityBar.border": "#519657",
-    "sideBarSectionHeader.background": "#c7edcc",
+    "sideBarSectionHeader.background": "#5196573e",
     "sideBarSectionHeader.foreground": "#519657",
     "sideBarSectionHeader.border": "#519657",
     // "sideBar.border": "#519657",
