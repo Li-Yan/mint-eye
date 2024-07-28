@@ -7,7 +7,7 @@
     "activityBarBadge.background": "#519657", // 左侧竖条数字标
     "activityBarBadge.foreground": "#eeeeee",
     // "activityBar.border": "#519657",
-    "sideBarSectionHeader.background": "#5196573e",
+    "sideBarSectionHeader.background": "#c7edcc",
     "sideBarSectionHeader.foreground": "#519657",
     "sideBarSectionHeader.border": "#519657",
     // "sideBar.border": "#519657",
@@ -193,7 +193,14 @@
     },
     { "name": "方法名-自定义", "scope": ["entity.name.function", "support.function.any-method", "entity.name.section", "meta.function-call.generic"], "settings": { "foreground": "#5c6bc0", "fontStyle": "normal" } },
     { "name": "方法名-系统", "scope": ["support.function", "keyword.other.special-method"], "settings": { "foreground": "#c8a415", "fontStyle": "normal" } },
-    { "name": "字符串", "scope": ["string"], "settings": { "foreground": "#519657" } },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#d5a6bd"
+      }
+    },
+    // { "name": "字符串", "scope": ["string"], "settings": { "foreground": "#d5a6bd" } },
     {
       "name": "字符串-正则,`${res}`",
       "scope": ["string.regexp", "string.regexp keyword.operator", "string.regexp constant.character", "string.interpolated", "meta.template.expression.js punctuation.definition", "meta.template.expression.ts punctuation.definition"],
