@@ -71,7 +71,7 @@
     "statusBarItem.hoverBackground": "#dcedc8",
     "statusBarItem.remoteBackground": "#519657",
     "statusBarItem.remoteForeground": "#00600f",
-    "tab.activeBackground": "#51965776", // 上方标签页
+    "tab.activeBackground": "#5196573e", // 上方标签页
     "tab.activeForeground": "#519657",
     "tab.activeBorder": "#519657",
     "tab.border": "#c7edcc",
