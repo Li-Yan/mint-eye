@@ -84,6 +84,14 @@
   "tokenColors": [
     { "name": "备注", "scope": ["comment", "punctuation.definition.comment"], "settings": { "foreground": "#97b498", "fontStyle": "" } },
     {
+      "name": "导入",
+      "scope": [
+        "source.java storage.modifier.import",
+        "source.java storage.type" // java import,type
+      ],
+      "settings": { "foreground": "#c88719" }
+    },
+    {
       "name": "类",
       "scope": [
         "entity.name",
@@ -92,10 +100,8 @@
         "entity.name.class",
         "support.class",
         "entity.other.inherited-class", // 类
-        "source.java storage.modifier.import",
-        "source.java storage.type" // java import,type
       ],
-      "settings": { "foreground": "#56b6c2" }
+      "settings": { "foreground": "#56b6c2", "fontStyle": "bold" }
     },
     {
       "name": "关键字",
