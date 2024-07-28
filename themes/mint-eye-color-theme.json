@@ -200,7 +200,6 @@
         "foreground": "#d5a6bd"
       }
     },
-    // { "name": "字符串", "scope": ["string"], "settings": { "foreground": "#d5a6bd" } },
     {
       "name": "字符串-正则,`${res}`",
       "scope": ["string.regexp", "string.regexp keyword.operator", "string.regexp constant.character", "string.interpolated", "meta.template.expression.js punctuation.definition", "meta.template.expression.ts punctuation.definition"],
