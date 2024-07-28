@@ -93,7 +93,7 @@
         "source.java storage.modifier.import",
         "source.java storage.type" // java import,type
       ],
-      "settings": { "foreground": "#c88719" }
+      "settings": { "foreground": "#56b6c2" }
     },
     {
       "name": "关键字",
