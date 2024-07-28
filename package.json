@@ -19,4 +19,9 @@
       }
     ]
   }
+  "homepage": "https://github.com/Li-Yan/vscode-theme-mint-eye",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Li-Yan/vscode-theme-mint-eye"
+  },
 }
